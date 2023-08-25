@@ -1,0 +1,309 @@
+
+
+body{
+ 
+    /* Setting the background image */
+    background-image: url('images/header-image.png');
+    
+    /* Setting the background size */
+    background-size: 1350px 650px;
+    
+    /* Setting background repeat to no-repeat */
+    background-repeat: no-repeat;
+    
+    /* Setting the width to 100% */
+    width: 100%;
+    
+    /* Setting the margin to 0 */
+    margin: 0;
+    
+    /* Setting the border-bottom with lowercase 'px' */
+    border-bottom: 10px solid grey;
+    
+    /* Setting the position to relative instead of absolute */
+    position: relative;
+    
+    /* Removing the duplicate background property */
+    /* background: no-repeat; */
+  
+    /* Setting the padding to 0 */
+    padding: 0;
+  
+    /* Setting text color to white */
+    color: #fff;
+  
+    /* Setting background color to black */
+    background-color: #000 ;
+    
+  }
+  
+ 
+   
+.logo{  
+    width: 12%;
+}
+
+ .btn {
+    padding-top: 0px;
+   padding-bottom: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 5px;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+   color: white;
+   
+ }
+ 
+ .nav{
+    padding: 5px;
+    padding-left:2vw ;
+    padding-right: 5vw;
+    height:10vh ;
+    justify-content: space-between;
+    display:flex;
+    align-items: center; }
+
+
+    select{
+        margin-left: 70%;
+        padding-top: 14px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 20Px;
+        border-radius: 8px;
+       color: rgb(14, 13, 13);
+    }
+
+.main-content{
+    color: #fff;
+position: absolute;
+margin-top: 8%;
+margin-left: 18%;
+
+} 
+
+
+
+.main-content h1{
+    font-size: 60px;
+    font-weight: 800;
+
+}
+.content{
+    color: #fff;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 37%;
+}
+.content h2{
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.main-content p{
+    margin-top: 10%;
+margin-left: 34%;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+.one p{
+   margin-top: 1%;
+font-family: Arial, Helvetica, sans-serif;
+    margin-left: 16%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.input{
+    margin-top: 30%;
+    margin-left: 29%;
+  color: white;
+}
+.input input{
+   font-size: 20px;
+    width: 40%;
+    padding: 1.5rem 1rem 0.5rem;
+    background: transparent;
+   color: hsl(0, 41%, 97%)(0,0,0,0.8);
+   
+    font-weight: bolder;
+
+}
+.input input:hover {
+    background-color: rgba(12, 11, 11, 0.3);}
+    
+ 
+.input button{
+   
+    margin-left: 45%;
+    margin-top:-52px;
+    padding: 0;
+    border-radius: 5px;
+     display: flex;
+     cursor: pointer;
+     border-color: #333;
+     transition: background-color 0.3s, color 0.3s;
+   text-align: center;
+    background-color: rgb(252, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+   
+  
+}
+input button:hover{
+    background-color: #2a2a2b; /* Darker color on hover */
+  color: #fff;
+}
+.first{
+ display: flex;
+ justify-content: center;
+margin-top: 103px;
+ 
+ border-top: 8px solid gray;
+ }
+ 
+.first h1{
+    font-size: 55px;
+  margin-top: 12%;
+  margin-left: 12%;
+}
+.first p{
+   color: #fff;
+    font-size: 30px;
+    
+   
+}
+.first img{
+    width: 44%;
+   
+
+}
+button{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 42px;
+}
+.question{
+   
+    border-top: 10px solid grey;
+    vertical-align: bottom;
+}
+.question h1{
+   text-align: center;
+   margin-left: 33px;
+   font-size: 44px;
+   
+   
+}
+.question button{
+    width: 600px;
+    color: #fff;
+    height: 60px;
+    background-color: grey;
+    font-size: 22px;
+    margin-left: 26%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.question p{
+    margin-left: 30%;
+    
+}
+
+ .button{
+    margin-top: 0%;
+    margin-left: 29%;
+    color: #e40606b3(0,0,0,0.8);
+   
+}
+.ZERO input {
+    width: 40%;
+margin-top: 0%;
+    margin-left: 30%;
+    padding: 1.5rem 1rem 0.5rem;
+    background: transparent;
+   
+    
+}
+
+
+
+
+.LOGIN {
+    
+    margin-top: 1%;
+    margin-left: 29%;
+  color: white;
+  background-color: #000;
+}
+.LOGIN input{
+   font-size: 20px;
+    width: 50%;
+    padding: 1.5rem 1rem 0.5rem;
+   background: transparent;
+   color: hsl(0, 41%, 97%)(0,0,0,0.8);
+   transition:color 250ms cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    font-weight: bolder;
+
+}
+.LOGIN input:hover {
+     background-color:rgba(252, 195, 195, 0.719); /* Darker color on hover */
+      color: #fff;}
+    
+    .LOGIN button{
+   width: 230PX;
+   
+   margin-top:-59px;
+    padding-right: 5;
+    border-radius: 5px;
+     display: flex;
+     cursor: pointer;
+     
+     transition: background-color 0.3s, color 0.3s;
+   text-align: center;
+    background-color: rgb(252, 0, 0);
+   
+   margin-left: 55%;
+          }
+    
+
+.footer {
+  margin-top: 10%;
+    max-width: 110%;
+    margin: 1rem auto;
+    overflow: auto;
+   background-color: #000;
+}
+
+
+ 
+  .footer a {
+    color: #999;
+    font-size: 0.9rem;
+}
+.footer p {
+ margin-left:0;
+  color: antiquewhite;
+  font-size: bold;
+}
+.footer .footer-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.footer li {
+  line-height: 1.9;
+}
+.footer .lang-select {
+  margin-top: 2rem;
+  color: #999;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #333;
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+}
